@@ -1,8 +1,8 @@
-# Revil Spam Bot
+# BRANDED KAMINA Spam Bot
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg">
+  <img src="https://telegra.ph/file/1892b78bacdeb91e47e94.jpg">
 </p>
 
 The Fastest multi spambot of Telegram🤞🤞 
