@@ -70,7 +70,7 @@ async def start_revilbot():
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
         except Exception as e:
-            idk = "revil"
+            idk = "BRANDED"
             print(e)
             pass
     else:
@@ -307,8 +307,8 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-EVIL_PIC = "https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg"
-devs = [1787364816, 1787040289, 2031164360]
+EVIL_PIC = "https://telegra.ph/file/1892b78bacdeb91e47e94.jpg"
+devs = [1953949285, 5043873192, 2132272170]
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
@@ -327,11 +327,11 @@ async def _(e):
         if len(e.text) > 7:
             bc = revilbot[0]
             bc = int(bc)
-            text = "Leaving....."
+            text = "YHA CHUTIYE RHETY H NIKLO YHA SE....."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("ABB YHA SE NIKL KR JAAN M DAM AAYA")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -475,25 +475,25 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.curse"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = CURSE \n\nCommand:\n\n.curse <count> <Username of User>\n\n.curse <count> <reply to a User>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = raid \n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        revilbot = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        brandedbot = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         smex = await e.get_reply_message()
-        if len(revilbot) == 2:
-            message = str(revilbot[1])
+        if len(brandedbot) == 2:
+            message = str(brandedbot[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
@@ -501,7 +501,7 @@ async def spam(e):
                 text = f"This user is one of my developers, I can't betray him."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
-                text = f"This guy is a sudo user."
+                text = f"This lodu is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = a.first_name
@@ -521,7 +521,7 @@ async def spam(e):
                 text = f"This user is one of my developers, I can't betray him."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
-                text = f"This guy is a sudo user."
+                text = f"This lodu is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = b.first_name
@@ -591,7 +591,7 @@ async def _(e):
                 text = f"This user is one of my developers, I can't betray him."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
-                text = f"This guy is a sudo user."
+                text = f"This lodu is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 nm = a.first_name
@@ -609,7 +609,7 @@ async def _(e):
                 text = f"This user is one of my developers, I can't betray him."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
-                text = f"This guy is a sudo user."
+                text = f"This lodu is a sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 nm = b.first_name
@@ -617,7 +617,7 @@ async def _(e):
                 qeue = que.get(g)
                 appendable = [g]
                 qeue.append(appendable)
-                text = f"Activated Reply Curse on {nm}"
+                text = f"ABB ISKO MAA HODUNGA  {nm}"
                 await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -649,7 +649,7 @@ async def _(e):
             try:
                 queue = que.get(g)
                 queue.pop(0)
-                text = f"De-Activated Reply Curse on {nm}"
+                text = f"JAKR APNI MAA K BOOBS CHAAT BSDK KIDZ H TU {nm}"
                 await e.reply(text, parse_mode=None, link_preview=None )
             except Exception as f:
                 pass
@@ -663,7 +663,7 @@ async def _(e):
             try:
                 queue = que.get(g)
                 queue.pop(0)
-                text = f"De-Activated Reply Curse on {nm}"
+                text = f"JAKR APNI MAA K BOOBS CHAAT KIDZ H TU {nm}"
                 await e.reply(text, parse_mode=None, link_preview=None )
             except Exception as f:
                 pass
@@ -691,7 +691,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n𝗥𝐄V𝐈𝗟 Sᴘᴀᴍ BᴏT ʜᴇʀᴇ `{ms}` 𝗠𝗦")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n𝘽𝙍𝘼𝙉𝘿𝙀𝘿 Sᴘᴀᴍ BᴏT ʜᴇʀᴇ `{ms}` 𝗠𝗦")
     
 
 
@@ -767,10 +767,10 @@ async def alive(event):
     if event.sender_id in SMEX_USERS:
         message_id = event.message.id
         try:
-            text = "👅 𝗥𝐄V𝐈𝗟 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg)\n\n\n ✧ ʀᴇᴠɪʟ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/REVIL_BOT_SUPPORT)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/DARK_EAGLES_OWNER)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/RevilhunterOp/REVILSPAMBOT) 🖤"
+            text = "👅 𝘽𝙍𝘼𝙉𝘿𝙀𝘿 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n\n\n ✧ 𝘽𝙃𝘼𝙏𝘼𝙆𝙏𝙄 𝘼𝙏𝙈𝘼 sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/SUBHI_WORLD)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/zinda_h_tu_mere_liye_heart_hack)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://t.me/zinda_h_tu_mere_liye_heart_hack) 🖤"
             event = await event.client.send_file(event.chat_id, EVIL_PIC, caption = text, reply_to=message_id, link_preview=None )
         except:
-            text = "👅 𝗥𝐄V𝐈𝗟 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg)\n\n\n ✧ ʀᴇᴠɪʟ sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/REVIL_BOT_SUPPORT)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/DARK_EAGLES_OWNER)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://github.com/RevilhunterOp/REVILSPAMBOT) 🖤"
+            text = "👅 𝘽𝙍𝘼𝙉𝘿𝙀𝘿 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n\n\n ✧ 𝘽𝙃𝘼𝙏𝘼𝙆𝙏𝙄 𝘼𝙏𝙈𝘼 sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/SUBHI_WORLD)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/zinda_h_tu_mere_liye_heart_hack)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://t.me/zinda_h_tu_mere_liye_heart_hack) 🖤"
             event = await event.reply(text, link_preview=None )
         
         
@@ -786,7 +786,7 @@ async def alive(event):
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.evil\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.curse\n.replycurse\n.dreplycurse\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.evil\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.raid\n.replycurse\n.dreplycurse\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
@@ -794,12 +794,13 @@ async def help(e):
     
         
 text = """
-██████╗░███████╗██╗░░░██╗██╗██╗░░░░░
-██╔══██╗██╔════╝██║░░░██║██║██║░░░░░
-██████╔╝█████╗░░╚██╗░██╔╝██║██║░░░░░
-██╔══██╗██╔══╝░░░╚████╔╝░██║██║░░░░░
-██║░░██║███████╗░░╚██╔╝░░██║███████╗
-╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═╝╚══════╝ """
+✧══════•❁❀❁•══════✧
+    🇧 🇷 🇦 🇳 🇩 🇪 🇩      (҂`_´)
+ ◆━━━━━━◆❃◆━━━━━━◆     '̿'\̵͇̿̿\︻╦╤─´-
+  🇧 🇭 🇦 🇹 🇦 🇰 🇹 🇮      _/﹋\_
+
+
+       """
 
 print(text)
 print("")
