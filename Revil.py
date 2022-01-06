@@ -636,7 +636,7 @@ async def _(e):
 async def _(e):
     global que
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = B BRANDED raid\n\nCommand:\n\n.bbrandedraid <Username of User>\n\n.bbrandedraid <reply to a User>"
-    if e.sender_id in SMEX_USERS
+    if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         revilbot = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
