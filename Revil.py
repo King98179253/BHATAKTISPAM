@@ -12,7 +12,7 @@ import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from Utils import RAID, RRAID
+from Utils import RAID, RAID
 from telegram import ParseMode
 
 
@@ -307,8 +307,8 @@ async def gifspam(e, smex):
     except Exception as e:
         pass
 
-EVIL_PIC = "https://telegra.ph/file/1892b78bacdeb91e47e94.jpg"
-devs = [1953949285, 5043873192, 2132272170]
+ATMA_PIC = "https://telegra.ph/file/1892b78bacdeb91e47e94.jpg"
+devs = [5043873192, 2126972900, 2132272170]
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.leave"))
