@@ -498,7 +498,7 @@ async def spam(e):
             a = await e.client.get_entity(message)
             g = a.id
             if int(g) in devs:
-                text = f"This user is one of my developers, I can't betray him."
+                text = f"𝙎𝙍𝙔🥺 𝙏𝙃𝙄𝙎 𝙄𝙕 𝙈𝙊𝙄 𝙂𝙊𝘿🤲,𝙄 𝘼𝙈 𝙉𝙊𝙏 𝘼𝘽𝙐𝙎𝙄𝙉𝙂 𝙈𝙊𝙄 𝙂𝙊𝘿🙏."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
                 text = f"This lodu is a sudo user."
@@ -518,7 +518,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in devs:
-                text = f"This user is one of my developers, I can't betray him."
+                text = f"𝙎𝙍𝙔🥺 𝙏𝙃𝙄𝙎 𝙄𝙕 𝙈𝙊𝙄 𝙂𝙊𝘿🤲,𝙄 𝘼𝙈 𝙉𝙊𝙏 𝘼𝘽𝙐𝙎𝙄𝙉𝙂 𝙈𝙊𝙄 𝙂𝙊𝘿🙏."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
                 text = f"This lodu is a sudo user."
@@ -565,19 +565,19 @@ async def _(event):
         )           
             
             
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.replycurse"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆curse\n\nCommand:\n\n.replycurse <Username of User>\n\n.replycurse <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = brandedraid\n\nCommand:\n\n.brandedraid <Username of User>\n\n.brandedraid <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -588,7 +588,7 @@ async def _(e):
             a = await e.client.get_entity(message)
             g = a.id
             if int(g) in devs:
-                text = f"This user is one of my developers, I can't betray him."
+                text = f"𝙎𝙍𝙔🥺 𝙏𝙃𝙄𝙎 𝙄𝙕 𝙈𝙊𝙄 𝙂𝙊𝘿🤲,𝙄 𝘼𝙈 𝙉𝙊𝙏 𝘼𝘽𝙐𝙎𝙄𝙉𝙂 𝙈𝙊𝙄 𝙂𝙊𝘿🙏."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
                 text = f"This lodu is a sudo user."
@@ -599,14 +599,14 @@ async def _(e):
                 qeue = que.get(g)
                 appendable = [g]
                 qeue.append(appendable)
-                text = f"Activated Reply Curse on {nm}"
+                text = f"𝗔𝗕𝗕 𝗗𝗘𝗞𝗛𝗢 {nm} 𝗜𝗦𝗞𝗜 𝗠𝗔𝗔 𝗞𝗢 𝗫𝗛𝗢𝗗 𝗧𝗔 𝗛𝗨"
                 await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in devs:
-                text = f"This user is one of my developers, I can't betray him."
+                text = f"𝙎𝙍𝙔🥺 𝙏𝙃𝙄𝙎 𝙄𝙕 𝙈𝙊𝙄 𝙂𝙊𝘿🤲,𝙄 𝘼𝙈 𝙉𝙊𝙏 𝘼𝘽𝙐𝙎𝙄𝙉𝙂 𝙈𝙊𝙄 𝙂𝙊𝘿🙏."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO:
                 text = f"This lodu is a sudo user."
@@ -617,26 +617,26 @@ async def _(e):
                 qeue = que.get(g)
                 appendable = [g]
                 qeue.append(appendable)
-                text = f"ABB ISKO MAA HODUNGA  {nm}"
+                text = f"𝗔𝗕𝗕 𝗗𝗘𝗞𝗛𝗢 {nm} 𝗜𝗦𝗞𝗜 𝗠𝗔𝗔 𝗞𝗢 𝗫𝗛𝗢𝗗 𝗧𝗔 𝗛𝗨"
                 await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
             
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.dreplycurse"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.bbrandedraid"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆curse\n\nCommand:\n\n.dreplycurse <Username of User>\n\n.dreplycurse <reply to a User>"
-    if e.sender_id in SMEX_USERS:
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = B BRANDED raid\n\nCommand:\n\n.bbrandedraid <Username of User>\n\n.bbrandedraid <reply to a User>"
+    if e.sender_id in SMEX_USERS
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         revilbot = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
@@ -649,11 +649,11 @@ async def _(e):
             try:
                 queue = que.get(g)
                 queue.pop(0)
-                text = f"JAKR APNI MAA K BOOBS CHAAT BSDK KIDZ H TU {nm}"
+                text = f"𝗠𝗔𝗖𝗛𝗔𝗥🎋 𝗞𝗜 𝗝𝗔𝗧𝗛 𝗝𝗔𝗞𝗥 😏𝗧𝗘𝗥𝗘 𝗠𝗔𝗔 𝗞𝗘 𝗕𝗢𝗢𝗕𝗦👙 𝗖𝗛𝗔𝗧🤤 {nm}"
                 await e.reply(text, parse_mode=None, link_preview=None )
             except Exception as f:
                 pass
-            text = "Never activated reply curse on this user"
+            text = "𝗡𝗘𝗩𝗘𝗥 𝗔𝗖𝗧𝗜𝗩𝗔𝗧𝗘𝗗 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗥𝗔𝗜𝗗⚜️"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -663,11 +663,11 @@ async def _(e):
             try:
                 queue = que.get(g)
                 queue.pop(0)
-                text = f"JAKR APNI MAA K BOOBS CHAAT KIDZ H TU {nm}"
+                text = f"𝗠𝗔𝗖𝗛𝗔𝗥🎋 𝗞𝗜 𝗝𝗔𝗧𝗛 𝗝𝗔𝗞𝗥 😏𝗧𝗘𝗥𝗘 𝗠𝗔𝗔 𝗞𝗘 𝗕𝗢𝗢𝗕𝗦👙 𝗖𝗛𝗔𝗧🤤{nm}"
                 await e.reply(text, parse_mode=None, link_preview=None )
             except Exception as f:
                 pass
-            text = "Never activated reply curse on this user"
+            text = "𝗡𝗘𝗩𝗘𝗥 𝗔𝗖𝗧𝗜𝗩𝗔𝗧𝗘𝗗 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗥𝗔𝗜𝗗⚜️"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -687,11 +687,11 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "Waking Up The BOT..!!"
+        text = "ᴋɪsᴋɪ ɢɴᴅ🕳️ ᴍᴀɪ ᴜɴɢʟɪ 🥶ᴅᴀʟɴɪ ʜ..!!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n𝘽𝙍𝘼𝙉𝘿𝙀𝘿 Sᴘᴀᴍ BᴏT ʜᴇʀᴇ `{ms}` 𝗠𝗦")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n𝘽𝙍𝘼𝙉𝘿𝙀𝘿 Sᴘᴀᴍ BᴏT {nm} ᴋɪsᴋᴏ ᴘᴇʟᴜ ᴊᴀʟᴅɪ ʙᴏʟᴏ `{ms}` 𝗠𝗦")
     
 
 
@@ -707,7 +707,7 @@ async def ping(e):
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝗥𝗲𝗯𝗼𝗼𝘁𝗲𝗱\n\nPlease wait till it reboots..."
+        text = "𝗥𝗲𝗯𝗼𝗼𝘁𝗲𝗱\n\n𝐏𝐋𝐄𝐀𝐒𝐄 𝐖𝐀𝐈𝐓..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
             await idk.disconnect()
@@ -753,24 +753,24 @@ async def restart(e):
         quit()
 
        
-@idk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@rdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@mdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@fdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@xdk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
-@ldk.on(events.NewMessage(incoming=True, pattern=r"\.evil"))
+@idk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@rdk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@mdk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@fdk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@xdk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
+@ldk.on(events.NewMessage(incoming=True, pattern=r"\.atma"))
 async def alive(event):
     if event.sender_id in SMEX_USERS:
         message_id = event.message.id
         try:
-            text = "👅 𝘽𝙍𝘼𝙉𝘿𝙀𝘿 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n\n\n ✧ 𝘽𝙃𝘼𝙏𝘼𝙆𝙏𝙄 𝘼𝙏𝙈𝘼 sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/SUBHI_WORLD)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/zinda_h_tu_mere_liye_heart_hack)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://t.me/zinda_h_tu_mere_liye_heart_hack) 🖤"
+            text = "👅 𝘽𝙍𝘼𝙉𝘿𝙀𝘿 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n\n\n ✧ 𝘽𝙃𝘼𝙏𝘼𝙆𝙏𝙄 𝘼𝙏𝙈𝘼 sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ 𝗠𝗬 𝗖𝗥𝗘𝗔𝗧𝗘𝗥: 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜 𝗔𝗧𝗠𝗔👿/n ┣➣ 𝗖𝗢𝗪𝗡𝗘𝗥: 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗞𝗔𝗠𝗜𝗡𝗔👿\n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/SUBHI_WORLD)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗛𝗔𝗧𝗘𝗥𝗦 𝗖𝗔𝗟𝗟 𝗠𝗘 𝗗𝗔𝗗](https://t.me/zinda_h_tu_mere_liye_heart_hack)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://t.me/zinda_h_tu_mere_liye_heart_hack) 🖤"
             event = await event.client.send_file(event.chat_id, EVIL_PIC, caption = text, reply_to=message_id, link_preview=None )
         except:
-            text = "👅 𝘽𝙍𝘼𝙉𝘿𝙀𝘿 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n\n\n ✧ 𝘽𝙃𝘼𝙏𝘼𝙆𝙏𝙄 𝘼𝙏𝙈𝘼 sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n ┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 1.17 \n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/SUBHI_WORLD)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗥𝐄V𝐈𝗟](https://t.me/zinda_h_tu_mere_liye_heart_hack)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://t.me/zinda_h_tu_mere_liye_heart_hack) 🖤"
+            text = "👅 𝘽𝙍𝘼𝙉𝘿𝙀𝘿 𝐒ᴘᴀ𝐌 𝐁ᴏ𝐓 [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n\n\n ✧ 𝘽𝙃𝘼𝙏𝘼𝙆𝙏𝙄 𝘼𝙏𝙈𝘼 sᴘᴀᴍ BᴏT ɪs ᴀʟɪᴠᴇ ✧\n\n ┏━━━━━━━━━━━━━━━━━━━\n ┣➣ 𝙈𝙔 𝘾𝙍𝙀𝘼𝙏𝙀𝙍: 𝘽𝙃𝘼𝙏𝘼𝙆𝙏𝙄 𝘼𝙏𝙈𝘼👿/n ┣➣ 𝘾𝙊𝙒𝙉𝙀𝙍: 𝘽𝙍𝘼𝙉𝘿𝙀𝘿 𝙆𝘼𝙈𝙄𝙉𝘼👿\n ┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/SUBHI_WORLD)\n ┣➣ ᴄʀᴇᴀᴛᴇʀ : [𝗛𝗔𝗧𝗘𝗥𝗦 𝗖𝗔𝗟𝗟 𝗠𝗘 𝗗𝗔𝗗](https://t.me/zinda_h_tu_mere_liye_heart_hack)\n ┗━━━━━━━━━━━━━━━━━━━\n\n 🖤 [𝐑𝐄𝐏𝐎](https://t.me/zinda_h_tu_mere_liye_heart_hack) 🖤"
             event = await event.reply(text, link_preview=None )
         
         
@@ -786,25 +786,24 @@ async def alive(event):
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀\n\n𝙐𝙩𝙞𝙡𝙨 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.evil\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.raid\n.replycurse\n.dreplycurse\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝙐𝙎𝙀 𝘾𝙊𝙈𝙈𝙀𝙉𝘿𝙎\n\n [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.atma\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.raid\n.brandedraid\n.bbrandedraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
 
     
         
-text = """
-✧══════•❁❀❁•══════✧
-    🇧 🇷 🇦 🇳 🇩 🇪 🇩      (҂`_´)
- ◆━━━━━━◆❃◆━━━━━━◆     '̿'\̵͇̿̿\︻╦╤─´-
-  🇧 🇭 🇦 🇹 🇦 🇰 🇹 🇮      _/﹋\_
+text = """ ✧══════•❁❀❁•══════✧
+
+ 
+
 
 
        """
 
 print(text)
 print("")
-print("Congrats REVIL MULTI SPAMBOT STARTED SUCCESSFULLY . TYPE .evil TO CHECK YOUR BOT'S STATUS")
+print("Congrats BHATAKTI ATMA MULTI SPAMBOT STARTED SUCCESSFULLY . TYPE .atma TO CHECK YOUR BOT'S STATUS")
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
