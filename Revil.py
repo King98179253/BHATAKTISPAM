@@ -486,7 +486,7 @@ async def spam(e):
 @xdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = raid \n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = raid\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -577,7 +577,7 @@ async def _(event):
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.brandedraid"))
 async def _(e):
     global que
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = brandedraid\n\nCommand:\n\n.brandedraid <Username of User>\n\n.brandedraid <reply to a User>"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 =BRANDED raid\n\nCommand:\n\n.brandedraid <Username of User>\n\n.brandedraid <reply to a User>"
     if e.sender_id in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -687,7 +687,7 @@ async def _(e):
 async def ping(e):
     if e.sender_id in SMEX_USERS:
         start = datetime.now()
-        text = "ᴋɪsᴋɪ ɢɴᴅ🕳️ ᴍᴀɪ ᴜɴɢʟɪ 🥶ᴅᴀʟɴɪ ʜ..!!"
+        text = "ᴋɪsᴋɪ ɢɴᴅ ᴍᴀɪ ᴜɴɢʟɪ ᴅᴀʟɴɪ ʜ..!!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
@@ -786,7 +786,7 @@ async def alive(event):
 @ldk.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 async def help(e):
     if e.sender_id in SMEX_USERS:
-       text = "𝙐𝙎𝙀 𝘾𝙊𝙈𝙈𝙀𝙉𝘿𝙎\n\n [👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.atma\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.raid\n.brandedraid\n.bbrandedraid\n\n\nFor more help regarding usage of plugins type plugins name"
+       text = "𝙐𝙎𝙀 𝘾𝙊𝙈𝙈𝙀𝙉𝘿𝙎[👅](https://telegra.ph/file/1892b78bacdeb91e47e94.jpg)\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.atma\n.ping\n.restart\n\n𝙐𝙨𝙚𝙧𝙗𝙤𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.bio\n.leave\n\n𝙎𝙥𝙖𝙢 𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.spam\n.dspam\n.bigspam\n.raid\n.brandedraid\n.bbrandedraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
