@@ -1,7 +1,7 @@
 {
-  "name": "REVIL MULTI SPAMBOT",
+  "name": "BHATAKTI ATMA MULTI SPAMBOT",
   "description": "THE MOST POWERFUL MULTI SPAMBOT OF TELEGRAM.",
-  "logo": "https://telegra.ph/file/00bc1bdc3ea94c1b2adc0.jpg",
+  "logo": "https://telegra.ph/file/1892b78bacdeb91e47e94.jpg",
   "keywords": [
     "spambot",
     "telegram",
@@ -70,7 +70,7 @@
       },
       "SUDO": {
         "description": "Sudo Users Id",
-        "value": "1787364816",
+        "value": "5043873192",
         "required": true
       }
   },
