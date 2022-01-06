@@ -15,7 +15,7 @@ The Fastest multi spambot of Telegram🤞🤞
 
 ### 🖤 ᴄʀᴇᴀᴛᴏʀ 🖤
 
-[![telegram badge](https://img.shields.io/badge/RevilHunter-30302f?style=for-the-badge&logo=telegram)](https://t.me/zinda_h_tu_mere_liye_heart_hack)
+[![telegram badge](https://img.shields.io/badge/𝗕𝗥𝗔𝗡𝗗𝗘𝗗_𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗔𝗧𝗠𝗔-30302f?style=for-the-badge&logo=telegram)](https://t.me/zinda_h_tu_mere_liye_heart_hack)
 
 ## ⚡𝓑𝓡𝓐𝓝𝓓𝓔𝓓 𝓚𝓐𝓜𝓘𝓝𝓐 𝔐𝔲𝔩𝔱𝔦 ẞø✞︎⚡
 ## 𝓐 𝕾мοοτн 𝓐и∂ 𝕱αѕτєѕτ 𝔖𝔭𝔞𝔪 ϐοτ 𝕭αѕє∂ 𝕺и 𝕿𝖊ℓєτнοи 𝕷ιϐяαяγ.
