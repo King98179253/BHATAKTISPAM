@@ -48,7 +48,7 @@ SMEX_USERS = []
 for x in SUDO:
     SMEX_USERS.append(x)
     
-async def start_revilbot():
+async def start_branded():
     global idk
     global ydk
     global wdk
